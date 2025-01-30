@@ -13,8 +13,7 @@ const App = () => {
          <CardContainer/>
          <Footer/>
       </div>
-      
-      
+ 
     </>
   )
 }

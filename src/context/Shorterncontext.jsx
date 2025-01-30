@@ -12,7 +12,7 @@ const Shorterncontext = createContext()
     } 
     const [state ,dispatch] = useReducer(ShorternReducer,initialState)
     return(
-        <Shorterncontext.Provider value={{ ...state , dispatch}}>{children}</Shorterncontext.Provider>
+        <Shorterncontext.Provider value={{...state , dispatch}}>{children}</Shorterncontext.Provider>
     )
  }
 

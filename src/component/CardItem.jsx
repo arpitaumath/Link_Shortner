@@ -5,7 +5,8 @@ const CardItem = ({link}) => {
 
   const {dispatch} = useContext(Shorterncontext)
   const removelink =(id) =>{
-    dispatch({action:'REMOVE_LINK',payload :id})
+    dispatch({type:'REMOVE_LINK', payload :id})
+    
   
   }
   return (
